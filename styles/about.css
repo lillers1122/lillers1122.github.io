@@ -66,4 +66,7 @@ h3 {
   .content img {
     max-width: 75%
   }
+  #dog {
+    color: white;
+  }
 }
