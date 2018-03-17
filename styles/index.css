@@ -1,0 +1,64 @@
+/* * {
+  border: black 1px solid;
+} */
+
+/* MAIN */
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: black;
+  margin-left: 5%;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.dino {
+  background-color: white;
+  padding-top: 6em;
+  text-align: center;
+}
+
+.dino img {
+  max-width: 20em;
+}
+
+.hero {
+  background-color: #215B33;
+  background-size: cover;
+  background-position: center;
+}
+
+.bio p {
+  text-align: center;
+  padding: .5em;
+  margin-left: 5em;
+  margin-right: 5em;
+  color: white;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.bio p:last-of-type::after {
+  color: black;
+  content: "\🥧";
+}
+
+.bio p:hover {
+  border: dotted white .1em;
+  background: #D64933;
+  opacity: .75;
+  border-radius: 10px;
+}
+
+/* SMALL SCREEN */
+@media screen and (max-width: 500px) {
+  .bio p {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
