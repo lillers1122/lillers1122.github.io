@@ -30,6 +30,10 @@ h2 {
   text-align: left;
 }
 
+.link_away {
+  color: black;
+  text-decoration: underine;
+}
 
 .portfolio img {
   max-width: 300px;
